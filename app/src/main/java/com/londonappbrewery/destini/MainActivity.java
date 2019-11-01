@@ -30,6 +30,8 @@ public class MainActivity extends AppCompatActivity {
         mTopButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                mStoryTextView.setText(R.string.T3_Story);
+                mTopButton.setText(R.string.T3_Ans1);
             }
         });
 
