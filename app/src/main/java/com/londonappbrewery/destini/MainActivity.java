@@ -2,11 +2,15 @@ package com.londonappbrewery.destini;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.Button;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
     // TODO: Steps 4 & 8 - Declare member variables here:
-
+    Button mTopButton;
+    Button mBottomButton;
+    TextView mStoryTextView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -15,6 +19,9 @@ public class MainActivity extends AppCompatActivity {
 
 
         // TODO: Step 5 - Wire up the 3 views from the layout to the member variables:
+        mTopButton = findViewById(R.id.buttonTop);
+        mBottomButton = findViewById(R.id.buttonBottom);
+        mStoryTextView = findViewById(R.id.storyTextView);
 
 
 
